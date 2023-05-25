@@ -1,5 +1,4 @@
-setwd("~/Desktop/song/pca_project")
-
+setwd("C:/Users/Lakshmi Krupa/OneDrive/Desktop/work in progress/Prostrate_cancer_relapse")
 mrna<-read.table("TCGA_PCa_mRNA_cancer_count.txt",header = T)
 mrna <- mrna[!duplicated(mrna[,1]), ]
 rownames(mrna)<-mrna$Tags
